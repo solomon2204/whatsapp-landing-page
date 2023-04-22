@@ -1,0 +1,101 @@
+.container{
+    width: 1350px;
+    margin: auto;
+  
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  header{
+    padding: 10px 0px;
+    box-shadow: 0px 10px 10px gray;
+  }
+  
+  .header_logo{
+    width: 70px;
+    height: auto;
+
+  }
+  
+  .logo_support{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(78, 78, 78);
+  }
+  
+  .header_nav{
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  
+  .header_nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 15px;
+  }
+  
+  .header_nav a:hover {
+    color: blue;
+  }
+  
+  .header_btn{
+    margin-left: 400px;
+    width: 450px;
+  }
+  
+  .header_btn a {
+     margin-top: 20px;
+     margin-left: 20px;
+     margin-bottom: 20px;
+     text-decoration: none;
+     font-size: 18px;
+     padding: 10px 15px;
+     border-radius: 5px;
+     
+  }
+  
+  .header_btn_one{
+    color:dodgerblue;
+  
+  }
+  
+  .header_btn_one:hover{
+    color:dodgerblue;
+    background-color:rgb(233, 233, 233);
+  }
+  
+  .header_btn_two{
+    background-color: dodgerblue;
+    color: white;
+  }
+  .header_btn_two:hover{
+    background-color: rgb(47, 142, 236) ;
+  }
+  
+  .title{
+    margin-top: 50px;
+  }
+  
+  .title_one{
+    width: 40%;
+    padding: 25px;
+  }
+  
+  .title_one h1{
+    font-size: 70px;
+  }
+  
+  .title_two{
+    width: 50%;
+    margin: auto;
+  }
+  
+  .title_two video{
+    width: 80%;
+    margin: 10%;
+  }
